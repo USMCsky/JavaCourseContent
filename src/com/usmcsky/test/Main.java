@@ -26,7 +26,12 @@ public class Main {
         Boolean bool2 = false;
         Character char22 = 'D';
 
+        int result = printMessage("TEST");
+        System.out.println(result);
+    }
 
-
+    private static int printMessage(String message) {
+        System.out.println(message);
+        return 10000000;
     }
 }
