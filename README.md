@@ -112,4 +112,4 @@ If you're also learning Java or building Minecraft plugins, feel free to explore
 ---
 ## 📌 Repository
 
-**Repo:** [USMCsky/JavaCourseContent](https://github.com/USMCsky/Java_Plugins)
+**Repo:** [USMCsky/Java_Plugins](https://github.com/USMCsky/Java_Plugins)
