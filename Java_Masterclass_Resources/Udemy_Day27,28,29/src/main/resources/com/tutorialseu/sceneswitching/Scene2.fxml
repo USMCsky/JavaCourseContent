@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tutorialseu.sceneswitching.SceneController">
+   <children>
+      <Label layoutX="268.0" layoutY="33.0" text="Scene2">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <BorderPane layoutX="200.0" layoutY="121.0" prefHeight="200.0" prefWidth="200.0">
+         <bottom>
+            <Button mnemonicParsing="false" onAction="#switchToScene1" text="Previous Scene" BorderPane.alignment="CENTER">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <padding>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+               </padding>
+            </Button>
+         </bottom>
+      </BorderPane>
+   </children>
+</AnchorPane>

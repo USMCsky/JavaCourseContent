@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import io.github.palexdev.materialfx.controls.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.tutorialseu.todoapp.controller.TodoController">
+    <VBox spacing="10" AnchorPane.topAnchor="20" AnchorPane.bottomAnchor="20" AnchorPane.leftAnchor="20" AnchorPane.rightAnchor="20">
+        <!-- Heading -->
+        <HBox alignment="CENTER">
+            <Label text="TODO LIST" styleClass="title"/>
+        </HBox>
+
+        <!-- Add Task Button on the left, Status Filter on the right -->
+        <HBox spacing="10">
+            <MFXButton text="Add Task" onAction="#handleAddTask" prefHeight="40"/>
+            <Pane HBox.hgrow="ALWAYS"/> <!-- This will push the dropdown to the right -->
+            <MFXComboBox fx:id="statusComboBox" promptText="All" prefHeight="30"/>
+        </HBox>
+
+        <!-- Scrollable Task Cards List -->
+        <ScrollPane fitToWidth="true" fitToHeight="true" vbarPolicy="NEVER" hbarPolicy="NEVER">
+            <VBox fx:id="taskListVBox" spacing="10" prefHeight="400" />
+        </ScrollPane>
+    </VBox>
+</AnchorPane>

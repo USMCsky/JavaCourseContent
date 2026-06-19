@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import io.github.palexdev.materialfx.controls.MFXTextField?>
+<?import io.github.palexdev.materialfx.controls.MFXButton?>
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.tutorialseu.todoapp.controller.TaskAddDialogController" spacing="10" alignment="CENTER" prefWidth="400" prefHeight="400" styleClass="dialog-pane">
+
+    <!-- Dialog Title -->
+    <Label text="Add New Task" styleClass="dialog-title" />
+
+    <!-- Task Title Input -->
+    <MFXTextField fx:id="taskTitleField" promptText="Enter task title" floatingText="Task Title" prefWidth="400"/>
+
+    <!-- Task Description Input -->
+    <Label text="Task Description" />
+    <TextArea fx:id="taskDescriptionField" promptText="Enter task description" wrapText="true" prefHeight="200" prefWidth="400" />
+
+    <!-- Submit and Cancel Buttons -->
+    <HBox spacing="10" alignment="CENTER_RIGHT">
+        <Region HBox.hgrow="ALWAYS" />
+        <MFXButton text="Cancel" onAction="#handleCancel" styleClass="cancel-button" prefWidth="80" prefHeight="30"/>
+        <MFXButton text="Submit" onAction="#handleSubmit" styleClass="submit-button" prefWidth="80" prefHeight="30"/>
+    </HBox>
+</VBox>

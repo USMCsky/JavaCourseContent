@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import io.github.palexdev.materialfx.controls.*?>
+
+<HBox spacing="10" alignment="CENTER" styleClass="task-card" xmlns:fx="http://javafx.com/fxml" fx:controller="com.tutorialseu.todoapp.controller.TaskCardController">
+    <!-- Task Title and Timestamp aligned to the left -->
+    <VBox spacing="5" HBox.hgrow="ALWAYS">
+        <Label fx:id="taskName" text="Task Name" />
+        <Label fx:id="taskTimestamp" text="Timestamp" styleClass="timestamp"/>
+    </VBox>
+
+    <!-- Spacer Region to push the View button and status to the right -->
+    <Region HBox.hgrow="ALWAYS"/>
+
+    <!-- Task Status and View Button aligned to the right -->
+    <Label fx:id="taskStatus" text="ToDo" prefWidth="100" />
+    <MFXButton text="View" onAction="#handleViewTask"/>
+</HBox>

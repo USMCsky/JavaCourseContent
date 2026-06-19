@@ -1,0 +1,62 @@
+/* Dialog Styling */
+.dialog-pane {
+    -fx-background-color: #ffffff;
+    -fx-padding: 20px;
+    -fx-border-radius: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.15), 10, 0.5, 0, 0);
+}
+
+/* Dialog Title */
+.dialog-title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
+
+MFXButton {
+    -fx-background-color: #6200EE;
+    -fx-text-fill: white;
+    -fx-background-radius: 8px;
+    -fx-padding: 10px 20px;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.5, 0, 0);
+}
+
+MFXButton:hover {
+    -fx-background-color: #5a00d9;
+}
+
+/* Text Field and Text Area Styling */
+MFXTextField {
+    -fx-font-size: 14px;
+    -fx-background-radius: 8px;
+    -fx-padding: 8px;
+}
+
+TextArea {
+    -fx-padding: 0px;
+    /* -fx-margin: 0px; */
+    /* -fx-border-color: #cccccc; */
+    -fx-border-radius: 8px;
+    -fx-font-size: 14px;
+    -fx-focus-color: #6200EE;
+}
+
+/* Cancel Button Specific Styling */
+.cancel-button {
+    -fx-background-color: #757575;
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+}
+
+.cancel-button:hover {
+    -fx-background-color: #666;
+}
+
+
+/* Submit Button Specific Styling */
+.submit-button {
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+}
