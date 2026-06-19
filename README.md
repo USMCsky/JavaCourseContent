@@ -87,18 +87,18 @@ This repository documents my day-by-day progress in a 60-day Java coding challen
 
 | Day | Topic | Status | Notes | Link |
 |---|---|---|---|---|
-| Day 01 |  | ⬜ Not Started |  |  |
-| Day 02 |  | ⬜ Not Started |  |  |
-| Day 03 |  | ⬜ Not Started |  |  |
-| Day 04 |  | ⬜ Not Started |  |  |
-| Day 05 |  | ⬜ Not Started |  |  |
-| Day 06 |  | ⬜ Not Started |  |  |
-| Day 07 |  | ⬜ Not Started |  |  |
-| Day 08 |  | ⬜ Not Started |  |  |
-| Day 09 |  | ⬜ Not Started |  |  |
-| Day 10 |  | ⬜ Not Started |  |  |
-| Day 11 |  | ⬜ Not Started |  |  |
-| Day 12 |  | ⬜ Not Started |  |  |
+| Day 01 |  | ✅ Complete |  |  |
+| Day 02 |  | ✅ Complete |  |  |
+| Day 03 |  | ✅ Complete |  |  |
+| Day 04 |  | ✅ Complete |  |  |
+| Day 05 |  | ✅ Complete |  |  |
+| Day 06 |  | ✅ Complete |  |  |
+| Day 07 |  | ✅ Complete |  |  |
+| Day 08 |  | ✅ Complete |  |  |
+| Day 09 |  | ✅ Complete |  |  |
+| Day 10 |  | ✅ Complete |  |  |
+| Day 11 |  | ✅ Complete |  |  |
+| Day 12 |  | ✅ Complete |  |  |
 | Day 13 |  | ⬜ Not Started |  |  |
 | Day 14 |  | ⬜ Not Started |  |  |
 | Day 15 |  | ⬜ Not Started |  |  |
